@@ -9,12 +9,12 @@ import { firmInfo } from '@/lib/dummy-data';
 import { motion } from 'framer-motion';
 
 const benefits = [
-  'Konsultasi gratis untuk evaluasi awal',
-  'Tim ahli berpengalaman 20+ tahun',
-  'Respons cepat dalam 2 jam',
-  'Transparansi biaya sejak awal',
-  'Pendampingan hingga selesai',
-  'Garansi kepuasan klien'
+  'Proses cepat dan persyaratan mudah',
+  'Petugas ramah dan profesional',
+  'Transparansi biaya dan bunga',
+  'Dukungan kepada UMKM dan komunitas',
+  'Jaringan layanan yang mudah dijangkau',
+  'Keamanan dana terjamin'
 ];
 
 export default function ServicesCTA() {
@@ -29,11 +29,11 @@ export default function ServicesCTA() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Siap Mendapatkan Bantuan Hukum?
+            Siap Mulai Bersama BPR Cakradana?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Jangan biarkan masalah hukum mengganggu hidup atau bisnis Anda. 
-            Hubungi kami sekarang untuk konsultasi gratis dan solusi terbaik.
+            Dapatkan produk tabungan, deposito, dan kredit yang sesuai kebutuhan Anda.
+            Ajukan sekarang atau hubungi kami untuk informasi lebih lanjut.
           </p>
         </motion.div>
 

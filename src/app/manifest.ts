@@ -2,13 +2,13 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Hukum Prima & Associates',
-    short_name: 'Hukum Prima',
-    description: 'Firma hukum terpercaya di Jakarta dengan pengalaman lebih dari 20 tahun',
+    name: 'BPR Cakradana',
+    short_name: 'BPR Cakradana',
+    description: 'Bank Perkreditan Rakyat dengan layanan tabungan, deposito, dan kredit UMKM yang cepat dan terpercaya',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
-    theme_color: '#2563eb',
+    theme_color: '#0ea5e9',
     icons: [
       {
         src: '/icon-192x192.png',

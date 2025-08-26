@@ -8,8 +8,8 @@ import { firmInfo } from '@/lib/dummy-data';
 
 export const metadata: Metadata = {
   title: `Tim Kami - ${firmInfo.name}`,
-  description: 'Bertemu dengan tim ahli hukum berpengalaman di Hukum Prima & Associates. Pengacara profesional dengan spesialisasi di berbagai bidang hukum.',
-  keywords: 'tim pengacara, ahli hukum, pengacara berpengalaman, spesialis hukum, jakarta',
+  description: 'Bertemu dengan tim profesional perbankan berpengalaman di BPR Cakradana. Tim yang berdedikasi dengan keahlian keuangan dan layanan nasabah.',
+  keywords: 'tim bpr, tim perbankan, layanan nasabah, keuangan, jakarta',
 };
 
 export default function TeamPage() {
@@ -25,7 +25,7 @@ export default function TeamPage() {
               </h1>
               <p className="text-xl text-slate-300 leading-relaxed">
                 Bertemu dengan tim profesional berpengalaman yang siap memberikan
-                solusi hukum terbaik dengan keahlian di berbagai bidang spesialisasi.
+                solusi keuangan terbaik dengan keahlian di berbagai produk dan layanan perbankan.
               </p>
             </div>
           </div>

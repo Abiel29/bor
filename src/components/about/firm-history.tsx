@@ -9,36 +9,36 @@ import { motion } from 'framer-motion';
 const milestones = [
   {
     year: '2004',
-    title: 'Pendirian Firma',
-    description: 'Hukum Prima & Associates didirikan oleh Dr. Ahmad Wijaya dengan visi menjadi firma hukum terdepan di Indonesia.',
+    title: 'Pendirian BPR',
+    description: 'BPR Cakradana didirikan dengan misi menghadirkan layanan keuangan yang mudah dijangkau untuk masyarakat dan UMKM.',
     icon: Building,
     color: 'bg-blue-500'
   },
   {
     year: '2008',
-    title: 'Ekspansi Tim',
-    description: 'Bergabungnya Sarah Putri sebagai Senior Partner, memperkuat divisi litigasi dan arbitrase.',
+    title: 'Ekspansi Jaringan',
+    description: 'Pembukaan kantor kas baru dan perluasan layanan untuk menjangkau lebih banyak nasabah.',
     icon: Users,
     color: 'bg-green-500'
   },
   {
     year: '2012',
     title: 'Penghargaan Pertama',
-    description: 'Meraih penghargaan "Best Corporate Law Firm" dari Indonesian Legal Awards.',
+    description: 'Meraih penghargaan layanan perbankan komunitas terbaik tingkat regional.',
     icon: Award,
     color: 'bg-yellow-500'
   },
   {
     year: '2016',
-    title: 'Sertifikasi Internasional',
-    description: 'Memperoleh sertifikasi ISO 9001:2015 untuk standar manajemen kualitas layanan hukum.',
+    title: 'Sertifikasi Manajemen Mutu',
+    description: 'Memperoleh sertifikasi ISO 9001:2015 untuk standar manajemen kualitas layanan perbankan.',
     icon: Award,
     color: 'bg-purple-500'
   },
   {
     year: '2020',
     title: 'Era Digital',
-    description: 'Transformasi digital dengan platform konsultasi online dan sistem manajemen kasus terintegrasi.',
+    description: 'Transformasi digital dengan peningkatan layanan dan sistem perbankan terintegrasi.',
     icon: Building,
     color: 'bg-indigo-500'
   },
@@ -66,7 +66,7 @@ export default function FirmHistory() {
             Perjalanan Kami
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Dari firma kecil hingga menjadi salah satu firma hukum terpercaya di Indonesia. 
+            Dari awal berdiri hingga menjadi BPR yang dipercaya masyarakat dan UMKM.
             Berikut adalah milestone penting dalam perjalanan kami.
           </p>
         </motion.div>
@@ -140,12 +140,12 @@ export default function FirmHistory() {
                 <div className="text-slate-600">Tahun Pengalaman</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                <div className="text-slate-600">Klien Dilayani</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">10.000+</div>
+                <div className="text-slate-600">Nasabah Dilayani</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
-                <div className="text-slate-600">Tingkat Keberhasilan</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">99%</div>
+                <div className="text-slate-600">Kepuasan Nasabah</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>

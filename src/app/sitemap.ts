@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { services } from '@/lib/dummy-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://hukumprima.com'; // Replace with your actual domain
+  const baseUrl = 'https://bprcakradana.co.id'; // Ganti dengan domain Anda
 
   // Static pages
   const staticPages = [

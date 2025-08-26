@@ -6,9 +6,9 @@ import MainLayout from '@/components/layout/main-layout';
 import { firmInfo } from '@/lib/dummy-data';
 
 export const metadata: Metadata = {
-  title: `Layanan Hukum - ${firmInfo.name}`,
-  description: 'Layanan hukum komprehensif meliputi hukum korporasi, litigasi, properti, keluarga, HKI, dan ketenagakerjaan. Konsultasi gratis tersedia.',
-  keywords: 'layanan hukum, pengacara, konsultasi hukum, hukum korporasi, litigasi, properti, jakarta',
+  title: `Produk & Layanan - ${firmInfo.name}`,
+  description: 'Produk perbankan komprehensif meliputi tabungan, deposito, kredit UMKM, kredit konsumtif, dan layanan digital. Informasi dan pengajuan mudah.',
+  keywords: 'bpr, tabungan, deposito, kredit umkm, kredit mikro, kredit konsumtif, layanan perbankan',
 };
 
 export default function ServicesPage() {
@@ -20,11 +20,11 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Layanan Hukum Kami
+                Produk & Layanan Kami
               </h1>
               <p className="text-xl text-slate-300 leading-relaxed">
-                Solusi hukum komprehensif untuk memenuhi berbagai kebutuhan klien,
-                dari individu hingga perusahaan multinasional.
+                Solusi perbankan komprehensif untuk memenuhi kebutuhan nasabah,
+                dari perorangan hingga UMKM dan komunitas.
               </p>
             </div>
           </div>

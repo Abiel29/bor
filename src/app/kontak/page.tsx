@@ -8,8 +8,8 @@ import { firmInfo } from '@/lib/dummy-data';
 
 export const metadata: Metadata = {
   title: `Hubungi Kami - ${firmInfo.name}`,
-  description: 'Hubungi Hukum Prima & Associates untuk konsultasi hukum gratis. Tersedia WhatsApp, telepon, email, dan kunjungan langsung ke kantor kami di Jakarta.',
-  keywords: 'kontak, konsultasi hukum, whatsapp, telepon, email, alamat kantor, jakarta',
+  description: 'Hubungi BPR Cakradana untuk informasi produk tabungan, deposito, dan kredit. Tersedia WhatsApp, telepon, email, dan kunjungan langsung ke kantor kami.',
+  keywords: 'kontak, bpr, tabungan, deposito, kredit, whatsapp, telepon, email, alamat kantor',
 };
 
 export default function ContactPage() {

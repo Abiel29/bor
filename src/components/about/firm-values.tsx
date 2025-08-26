@@ -23,20 +23,20 @@ const values = [
   },
   {
     icon: Scale,
-    title: 'Keadilan',
-    description: 'Kami percaya bahwa setiap orang berhak mendapatkan perlakuan yang adil dan representasi hukum yang berkualitas.',
+    title: 'Kepatuhan',
+    description: 'Kami beroperasi sesuai regulasi perbankan dan menerapkan prinsip kehati-hatian demi keamanan nasabah.',
     color: 'bg-green-500'
   },
   {
     icon: Star,
     title: 'Keunggulan',
-    description: 'Kami terus berusaha memberikan layanan terbaik dengan standar kualitas tertinggi di industri hukum.',
+    description: 'Kami terus berusaha memberikan layanan terbaik dengan standar kualitas tertinggi di industri perbankan.',
     color: 'bg-yellow-500'
   },
   {
     icon: Heart,
     title: 'Empati',
-    description: 'Kami memahami bahwa setiap klien memiliki situasi unik dan membutuhkan pendekatan yang personal dan sensitif.',
+    description: 'Kami memahami bahwa setiap nasabah memiliki kebutuhan unik dan membutuhkan pendekatan yang personal dan bersahabat.',
     color: 'bg-red-500'
   },
   {
@@ -48,7 +48,7 @@ const values = [
   {
     icon: Lightbulb,
     title: 'Inovasi',
-    description: 'Kami mengadopsi teknologi dan metode terbaru untuk memberikan solusi hukum yang efektif dan efisien.',
+    description: 'Kami mengadopsi teknologi dan metode terbaru untuk memberikan solusi perbankan yang efektif dan efisien.',
     color: 'bg-orange-500'
   },
   {
@@ -133,7 +133,7 @@ export default function FirmValues() {
                   Komitmen Etika
                 </h4>
                 <p className="text-slate-600 text-sm">
-                  Kami mematuhi kode etik profesi dan standar tertinggi dalam praktik hukum
+                  Kami mematuhi regulasi perbankan dan standar tertinggi dalam operasional BPR
                 </p>
               </div>
               <div className="text-center">
@@ -144,7 +144,7 @@ export default function FirmValues() {
                   Kepedulian Sosial
                 </h4>
                 <p className="text-slate-600 text-sm">
-                  Kami aktif dalam program pro bono dan kegiatan sosial untuk membantu masyarakat
+                  Kami aktif dalam program literasi keuangan dan kegiatan sosial untuk membantu masyarakat
                 </p>
               </div>
               <div className="text-center">

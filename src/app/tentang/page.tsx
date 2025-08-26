@@ -9,8 +9,8 @@ import { firmInfo } from '@/lib/dummy-data';
 
 export const metadata: Metadata = {
   title: `Tentang Kami - ${firmInfo.name}`,
-  description: 'Pelajari lebih lanjut tentang sejarah, misi, visi, dan tim ahli di Hukum Prima & Associates. Firma hukum terpercaya dengan pengalaman lebih dari 20 tahun.',
-  keywords: 'tentang kami, sejarah firma hukum, tim pengacara, misi visi, jakarta',
+  description: 'Pelajari lebih lanjut tentang sejarah, misi, visi, dan tim BPR Cakradana. Bank Perkreditan Rakyat yang berkomitmen mendukung masyarakat dan UMKM.',
+  keywords: 'tentang kami, sejarah bpr, tim, misi visi, bpr, perbankan, jakarta',
 };
 
 export default function AboutPage() {
@@ -24,9 +24,17 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Tentang Kami
               </h1>
+              <div className="mt-3 flex items-center justify-center gap-2">
+                <span className="inline-flex items-center rounded-full bg-green-100 text-green-700 px-3 py-1 text-xs font-medium border border-green-200">
+                  Berizin & Diawasi OJK
+                </span>
+                <span className="inline-flex items-center rounded-full bg-blue-100 text-blue-700 px-3 py-1 text-xs font-medium border border-blue-200">
+                  Dijamin LPS
+                </span>
+              </div>
               <p className="text-xl text-slate-300 leading-relaxed">
                 Mengenal lebih dekat {firmInfo.name}, perjalanan kami, dan komitmen
-                untuk memberikan layanan hukum terbaik bagi klien.
+                untuk memberikan layanan perbankan terbaik bagi nasabah.
               </p>
             </div>
           </div>

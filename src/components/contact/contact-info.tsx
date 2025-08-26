@@ -210,7 +210,7 @@ export default function ContactInfo() {
                   ))}
                 </div>
                 <p className="text-slate-500 text-sm mt-3">
-                  Dapatkan update terbaru tentang hukum dan tips legal
+                  Dapatkan update terbaru tentang produk dan tips keuangan
                 </p>
               </CardContent>
             </Card>

@@ -18,12 +18,12 @@ import { services } from '@/lib/dummy-data';
 import { motion } from 'framer-motion';
 
 const serviceIcons = {
-  'hukum-korporasi': Building2,
-  'litigasi-arbitrase': Scale,
-  'hukum-properti': Home,
-  'hukum-keluarga': Heart,
-  'hak-kekayaan-intelektual': Lightbulb,
-  'hukum-ketenagakerjaan': Users,
+  'tabungan': Home,
+  'deposito': Building2,
+  'kredit-umkm': Users,
+  'kredit-konsumtif': Heart,
+  'kredit-mikro': Scale,
+  'layanan-digital': Lightbulb,
 };
 
 export default function ServicesPreview() {
@@ -40,11 +40,11 @@ export default function ServicesPreview() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Layanan Hukum Kami
+Produk & Layanan Perbankan
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Kami menyediakan layanan hukum komprehensif untuk memenuhi berbagai kebutuhan klien, 
-            dari individu hingga perusahaan multinasional.
+            Kami menyediakan produk simpanan dan kredit untuk memenuhi kebutuhan finansial Anda,
+            mulai dari perorangan hingga pelaku UMKM.
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ export default function ServicesPreview() {
 
                         {/* Learn More Link */}
                         <div className="flex items-center text-blue-600 font-medium group-hover:text-blue-700 transition-colors duration-300">
-                          <span className="text-sm">Pelajari Lebih Lanjut</span>
+                          <span className="text-sm">Lihat Detail</span>
                           <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                         </div>
                       </div>
@@ -108,16 +108,16 @@ export default function ServicesPreview() {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              Butuh Layanan Hukum Lainnya?
+Butuh Produk Perbankan Lainnya?
             </h3>
             <p className="text-slate-600 mb-6">
-              Kami memiliki tim ahli yang siap membantu berbagai kebutuhan hukum Anda. 
+              Kami siap membantu berbagai kebutuhan keuangan Anda.
               Konsultasikan kebutuhan spesifik Anda dengan tim kami.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
                 <Link href="/layanan" className="flex items-center space-x-2">
-                  <span>Lihat Semua Layanan</span>
+                  <span>Lihat Semua Produk</span>
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>

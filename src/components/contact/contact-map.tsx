@@ -83,7 +83,7 @@ export default function ContactMap() {
                           {firmInfo.name}
                         </h3>
                         <p className="text-slate-600 text-xs">
-                          Jl. Sudirman No. 123
+                          {firmInfo.address}
                         </p>
                       </div>
                     </div>

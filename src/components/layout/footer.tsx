@@ -14,14 +14,14 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H</span>
+                <span className="text-white font-bold text-lg">B</span>
               </div>
               <div>
                 <div className="font-bold text-lg">
-                  {firmInfo.name.split(' ')[0]} {firmInfo.name.split(' ')[1]}
+                  {firmInfo.name}
                 </div>
                 <div className="text-sm text-slate-400 -mt-1">
-                  & Associates
+                  Bank Perkreditan Rakyat
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function Footer() {
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-lg">Layanan Kami</h3>
+            <h3 className="font-semibold text-lg">Produk & Layanan</h3>
             <ul className="space-y-2">
               {services.slice(0, 5).map((service) => (
                 <li key={service.id}>

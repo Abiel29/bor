@@ -17,38 +17,38 @@ import { firmInfo } from '@/lib/dummy-data';
 const keyPoints = [
   {
     icon: Award,
-    title: 'Pengalaman Lebih dari 20 Tahun',
-    description: 'Tim ahli dengan track record yang terbukti dalam menangani berbagai kasus hukum kompleks.',
-    badge: 'Berpengalaman'
+    title: 'Berizin dan Diawasi OJK',
+    description: 'Operasional sesuai ketentuan regulator untuk keamanan dan kenyamanan nasabah.',
+    badge: 'Resmi'
   },
   {
     icon: Heart,
-    title: 'Pendekatan Personalisasi',
-    description: 'Setiap klien mendapat perhatian khusus dengan solusi yang disesuaikan dengan kebutuhan spesifik.',
+    title: 'Layanan Bersahabat',
+    description: 'Pendekatan personal dengan petugas yang ramah dan siap membantu.',
     badge: 'Personal'
   },
   {
     icon: Shield,
-    title: 'Keberhasilan Terbukti',
-    description: 'Tingkat keberhasilan 95% dalam menyelesaikan kasus dengan hasil yang memuaskan klien.',
-    badge: 'Terpercaya'
+    title: 'Keamanan Dana',
+    description: 'Pengelolaan dana dengan prinsip kehati-hatian dan sistem yang andal.',
+    badge: 'Aman'
   },
   {
     icon: Clock,
-    title: 'Respons Cepat',
-    description: 'Konsultasi 24/7 dan respons maksimal 2 jam untuk urusan mendesak.',
+    title: 'Proses Cepat',
+    description: 'Pengajuan kredit dan pembukaan rekening yang mudah dan cepat.',
     badge: 'Responsif'
   },
   {
     icon: Users,
-    title: 'Tim Multidisiplin',
-    description: 'Kolaborasi ahli dari berbagai bidang hukum untuk solusi komprehensif.',
-    badge: 'Komprehensif'
+    title: 'Dukungan untuk UMKM',
+    description: 'Fokus mendukung pertumbuhan usaha mikro, kecil, dan menengah.',
+    badge: 'UMKM'
   },
   {
     icon: Zap,
-    title: 'Teknologi Modern',
-    description: 'Menggunakan teknologi terkini untuk efisiensi dan transparansi proses hukum.',
+    title: 'Kemudahan Digital',
+    description: 'Informasi saldo, pengingat angsuran, dan layanan lain melalui kanal digital.',
     badge: 'Inovatif'
   }
 ];
@@ -68,7 +68,7 @@ export default function KeySellingPoints() {
             Mengapa Memilih Kami?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Komitmen kami adalah memberikan layanan hukum terbaik dengan standar profesional tertinggi
+            Komitmen kami adalah memberikan layanan perbankan yang aman, mudah, dan bersahabat
           </p>
         </motion.div>
 
@@ -119,10 +119,10 @@ export default function KeySellingPoints() {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              Siap untuk Konsultasi?
+              Tertarik dengan Produk Kami?
             </h3>
             <p className="text-slate-600 mb-6">
-              Dapatkan konsultasi gratis untuk memahami opsi hukum terbaik untuk kasus Anda
+              Konsultasi produk gratis untuk menemukan solusi keuangan yang tepat bagi Anda
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

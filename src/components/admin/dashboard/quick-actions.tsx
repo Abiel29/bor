@@ -26,14 +26,14 @@ export default function QuickActions() {
   const actions: QuickAction[] = [
     {
       title: 'Tambah Tim Baru',
-      description: 'Tambahkan anggota tim atau pengacara baru',
+      description: 'Tambahkan anggota tim baru',
       href: '/admin/team/new',
       icon: <Users className="h-5 w-5" />,
       color: 'bg-blue-500 hover:bg-blue-600'
     },
     {
       title: 'Tambah Layanan',
-      description: 'Buat layanan hukum baru',
+      description: 'Buat produk/layanan baru',
       href: '/admin/services/new',
       icon: <Briefcase className="h-5 w-5" />,
       color: 'bg-green-500 hover:bg-green-600'

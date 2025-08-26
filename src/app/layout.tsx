@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: firmInfo.seo_title || firmInfo.name,
   description: firmInfo.seo_description || firmInfo.tagline,
-  keywords: "firma hukum, pengacara, konsultasi hukum, jakarta, indonesia",
+  keywords: "bpr, bank perkreditan rakyat, tabungan, deposito, kredit umkm, jakarta, indonesia",
   authors: [{ name: firmInfo.name }],
   openGraph: {
     title: firmInfo.seo_title || firmInfo.name,

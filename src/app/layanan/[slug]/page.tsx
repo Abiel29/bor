@@ -26,9 +26,9 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   }
 
   return {
-    title: `${service.title} - Hukum Prima & Associates`,
+    title: `${service.title} - ${service.title.includes('Kredit') ? 'BPR Cakradana' : 'BPR Cakradana'}`,
     description: service.short_description,
-    keywords: `${service.title.toLowerCase()}, layanan hukum, pengacara, konsultasi hukum, jakarta`,
+    keywords: `${service.title.toLowerCase()}, bpr, produk perbankan, tabungan, deposito, kredit`,
   };
 }
 

@@ -74,8 +74,8 @@ export default function ContactForm() {
               Kirim Pesan
             </h2>
             <p className="text-slate-600">
-              Ceritakan kebutuhan hukum Anda dan kami akan merespons dalam waktu 2 jam. 
-              Semua konsultasi awal bersifat gratis dan rahasia.
+              Ceritakan kebutuhan produk tabungan/deposito/kredit Anda dan kami akan merespons sesegera mungkin.
+              Konsultasi awal bersifat gratis.
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function ContactForm() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    placeholder="Contoh: Konsultasi Hukum Korporasi"
+                    placeholder="Contoh: Informasi Produk Deposito"
                     className="h-12"
                   />
                 </div>
@@ -146,7 +146,7 @@ export default function ContactForm() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    placeholder="Jelaskan kebutuhan hukum Anda secara detail..."
+                    placeholder="Jelaskan kebutuhan produk perbankan Anda secara detail..."
                     className="min-h-[120px] resize-none"
                   />
                 </div>
@@ -195,7 +195,7 @@ export default function ContactForm() {
 
                 <p className="text-sm text-slate-500 text-center">
                   Dengan mengirim pesan ini, Anda menyetujui bahwa informasi akan digunakan 
-                  untuk keperluan konsultasi hukum dan dijaga kerahasiaannya.
+                  untuk keperluan konsultasi produk perbankan dan dijaga kerahasiaannya.
                 </p>
               </form>
             </CardContent>

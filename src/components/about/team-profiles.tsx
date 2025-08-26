@@ -24,7 +24,7 @@ export default function TeamProfiles() {
             Tim Ahli Kami
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Bertemu dengan tim profesional berpengalaman yang siap memberikan solusi hukum terbaik untuk Anda
+            Bertemu dengan tim profesional berpengalaman yang siap memberikan solusi keuangan terbaik untuk Anda
           </p>
         </motion.div>
 
@@ -153,7 +153,7 @@ export default function TeamProfiles() {
             </h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
               Kami selalu mencari talenta terbaik untuk bergabung dengan tim kami. 
-              Jika Anda passionate tentang hukum dan ingin berkembang bersama firma terkemuka, 
+              Jika Anda passionate tentang perbankan dan ingin berkembang bersama BPR Cakradana,
               kami ingin mendengar dari Anda.
             </p>
             <Button 

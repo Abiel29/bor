@@ -24,145 +24,133 @@ import { firmInfo } from '@/lib/dummy-data';
 import { motion } from 'framer-motion';
 
 const serviceIcons = {
-  'hukum-korporasi': Building2,
-  'litigasi-arbitrase': Scale,
-  'hukum-properti': Home,
-  'hukum-keluarga': Heart,
-  'hak-kekayaan-intelektual': Lightbulb,
-  'hukum-ketenagakerjaan': Users,
+  'tabungan': Home,
+  'deposito': Building2,
+  'kredit-umkm': Users,
+  'kredit-konsumtif': Heart,
+  'kredit-mikro': Scale,
+  'layanan-digital': Lightbulb,
 };
 
 const serviceDetails = {
-  'hukum-korporasi': {
+  'tabungan': {
     features: [
-      'Pendirian PT, CV, dan badan usaha lainnya',
-      'Merger, akuisisi, dan restrukturisasi',
-      'Corporate governance dan compliance',
-      'Kontrak bisnis dan kemitraan',
-      'Due diligence perusahaan',
-      'Perubahan anggaran dasar'
+      'Setoran awal ringan',
+      'Biaya administrasi rendah',
+      'Buku tabungan / rekening koran',
+      'Info saldo via WhatsApp'
     ],
     process: [
-      'Konsultasi awal dan analisis kebutuhan',
-      'Penyusunan dokumen legal',
-      'Proses perizinan dan registrasi',
-      'Monitoring dan follow-up'
+      'Pengisian formulir pembukaan rekening',
+      'Verifikasi identitas',
+      'Setoran awal',
+      'Aktivasi rekening'
     ],
     benefits: [
-      'Struktur perusahaan yang optimal',
-      'Compliance dengan regulasi',
-      'Perlindungan hukum maksimal',
-      'Efisiensi operasional'
+      'Dana aman dan mudah diakses',
+      'Transaksi harian lebih mudah',
+      'Kontrol keuangan yang lebih baik',
+      'Dukungan layanan ramah'
     ]
   },
-  'litigasi-arbitrase': {
+  'deposito': {
     features: [
-      'Litigasi perdata dan pidana',
-      'Arbitrase komersial domestik dan internasional',
-      'Mediasi dan negosiasi sengketa',
-      'Eksekusi putusan pengadilan',
-      'Banding dan kasasi',
-      'Penegakan hak kontraktual'
+      'Bunga kompetitif',
+      'Tenor fleksibel',
+      'ARO (perpanjangan otomatis)',
+      'Bukti deposito resmi'
     ],
     process: [
-      'Evaluasi kasus dan strategi hukum',
-      'Persiapan dokumen dan bukti',
-      'Representasi di pengadilan/arbitrase',
-      'Eksekusi dan follow-up'
+      'Pemilihan tenor dan jumlah',
+      'Setoran dana',
+      'Penerbitan bilyet deposito',
+      'Pencairan atau perpanjangan'
     ],
     benefits: [
-      'Tingkat keberhasilan tinggi',
-      'Strategi litigasi yang efektif',
-      'Penyelesaian sengketa optimal',
-      'Perlindungan kepentingan klien'
+      'Imbal hasil menarik',
+      'Risiko rendah',
+      'Perencanaan keuangan lebih terarah',
+      'Proses mudah'
     ]
   },
-  'hukum-properti': {
+  'kredit-umkm': {
     features: [
-      'Due diligence properti dan tanah',
-      'Kontrak jual beli dan sewa menyewa',
-      'Pengurusan sertifikat dan IMB',
-      'Sengketa tanah dan properti',
-      'Real estate development',
-      'Strata title dan apartemen'
+      'Proses cepat',
+      'Plafon fleksibel',
+      'Angsuran ringan',
+      'Persyaratan mudah'
     ],
     process: [
-      'Verifikasi legal properti',
-      'Penyusunan kontrak dan dokumen',
-      'Proses registrasi dan sertifikasi',
-      'Penyelesaian transaksi'
+      'Pengajuan dan survei usaha',
+      'Analisis kelayakan',
+      'Persetujuan kredit',
+      'Pencairan dana'
     ],
     benefits: [
-      'Transaksi properti aman',
-      'Dokumen legal lengkap',
-      'Risiko hukum minimal',
-      'Investasi terlindungi'
+      'Pengembangan bisnis',
+      'Tambahan modal kerja',
+      'Skema sesuai arus kas',
+      'Pendampingan ramah'
     ]
   },
-  'hukum-keluarga': {
+  'kredit-konsumtif': {
     features: [
-      'Perceraian dan pembatalan pernikahan',
-      'Hak asuh dan nafkah anak',
-      'Pembagian harta gono-gini',
-      'Adopsi dan perwalian',
-      'Perencanaan waris',
-      'Mediasi keluarga'
+      'Tenor fleksibel',
+      'Bunga kompetitif',
+      'Multiguna',
+      'Pencairan cepat'
     ],
     process: [
-      'Konsultasi sensitif dan rahasia',
-      'Mediasi dan negosiasi',
-      'Proses hukum yang diperlukan',
-      'Dukungan pasca penyelesaian'
+      'Pengajuan kebutuhan',
+      'Verifikasi dokumen',
+      'Persetujuan kredit',
+      'Pencairan dana'
     ],
     benefits: [
-      'Penyelesaian damai',
-      'Perlindungan hak anak',
-      'Proses yang sensitif',
-      'Solusi win-win'
+      'Wujudkan kebutuhan pribadi',
+      'Cicilan terjangkau',
+      'Proses mudah',
+      'Layanan responsif'
     ]
   },
-  'hak-kekayaan-intelektual': {
+  'kredit-mikro': {
     features: [
-      'Pendaftaran merek dan logo',
-      'Perlindungan paten dan desain',
-      'Hak cipta dan karya kreatif',
-      'Lisensi dan franchise',
-      'Penegakan hak IP',
-      'IP audit dan strategi'
+      'Tanpa ribet',
+      'Survei cepat',
+      'Dokumen sederhana',
+      'Cicilan terjangkau'
     ],
     process: [
-      'IP audit dan penelusuran',
-      'Aplikasi dan registrasi',
-      'Monitoring dan perlindungan',
-      'Penegakan dan litigasi'
+      'Pengajuan singkat',
+      'Survei lapangan',
+      'Persetujuan cepat',
+      'Pencairan dana'
     ],
     benefits: [
-      'Aset IP terlindungi',
-      'Keunggulan kompetitif',
-      'Revenue stream baru',
-      'Brand protection'
+      'Dukungan usaha mikro',
+      'Proses cepat',
+      'Syarat ringan',
+      'Skema fleksibel'
     ]
   },
-  'hukum-ketenagakerjaan': {
+  'layanan-digital': {
     features: [
-      'Kontrak kerja dan PKB',
-      'PHK dan pesangon',
-      'Sengketa industrial',
-      'Compliance ketenagakerjaan',
-      'Outsourcing dan alih daya',
-      'Hubungan industrial'
+      'Pengingat angsuran',
+      'Transfer antar rekening',
+      'Informasi saldo',
+      'Jaringan kantor'
     ],
     process: [
-      'Review kebijakan HR',
-      'Penyusunan dokumen ketenagakerjaan',
-      'Training dan sosialisasi',
-      'Monitoring compliance'
+      'Registrasi layanan',
+      'Aktivasi fitur',
+      'Penggunaan harian',
+      'Dukungan layanan'
     ],
     benefits: [
-      'Hubungan kerja harmonis',
-      'Compliance penuh',
-      'Risiko sengketa minimal',
-      'Produktivitas optimal'
+      'Transaksi makin mudah',
+      'Akses informasi cepat',
+      'Efisiensi waktu',
+      'Kemudahan layanan'
     ]
   }
 };

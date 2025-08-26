@@ -29,11 +29,11 @@ export default function FinalCTA() {
           className="text-center text-white mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Siap Mendapatkan Bantuan Hukum Terbaik?
+            Siap Mulai Bersama BPR Cakradana?
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Jangan biarkan masalah hukum mengganggu hidup atau bisnis Anda. 
-            Hubungi kami sekarang untuk konsultasi gratis dan solusi terbaik.
+            Buka rekening atau ajukan kredit dengan proses mudah dan cepat.
+            Tim kami siap membantu Anda.
           </p>
         </motion.div>
 

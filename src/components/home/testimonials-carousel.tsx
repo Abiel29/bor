@@ -39,10 +39,10 @@ export default function TestimonialsCarousel() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Apa Kata Klien Kami?
+Apa Kata Nasabah Kami?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Kepuasan klien adalah prioritas utama kami. Berikut testimoni dari mereka yang telah mempercayakan urusan hukumnya kepada kami.
+            Kepuasan nasabah adalah prioritas kami. Berikut testimoni dari mereka yang telah mempercayakan kebutuhan finansialnya kepada kami.
           </p>
         </motion.div>
 

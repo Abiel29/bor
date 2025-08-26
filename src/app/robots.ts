@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/api/'],
     },
-    sitemap: 'https://hukumprima.com/sitemap.xml', // Replace with your actual domain
+    sitemap: 'https://bprcakradana.co.id/sitemap.xml', // Ganti dengan domain Anda
   };
 }

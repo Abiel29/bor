@@ -36,7 +36,7 @@ export default function AdminUsersPage() {
           id: 1,
           username: 'admin',
           password_hash: '$2b$12$rQZ8vQZ8vQZ8vQZ8vQZ8vOZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQ',
-          email: 'admin@hukumprima.com',
+          email: 'admin@bprcakradana.co.id',
           full_name: 'Administrator',
           is_active: true,
           last_login: new Date().toISOString(),
@@ -47,7 +47,7 @@ export default function AdminUsersPage() {
           id: 2,
           username: 'manager',
           password_hash: '$2b$12$rQZ8vQZ8vQZ8vQZ8vQZ8vOZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQZ8vQ',
-          email: 'manager@hukumprima.com',
+          email: 'manager@bprcakradana.co.id',
           full_name: 'Content Manager',
           is_active: true,
           last_login: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), // 1 day ago

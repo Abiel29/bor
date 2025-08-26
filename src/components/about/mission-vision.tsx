@@ -21,7 +21,7 @@ export default function MissionVision() {
             Misi & Visi Kami
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Komitmen kami dalam memberikan layanan hukum terbaik dilandasi oleh misi dan visi yang jelas
+            Komitmen kami dalam memberikan layanan perbankan terbaik dilandasi oleh misi dan visi yang jelas
           </p>
         </motion.div>
 
@@ -47,11 +47,11 @@ export default function MissionVision() {
                 <div className="mt-6 space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                    <span className="text-slate-600">Memberikan solusi hukum yang inovatif</span>
+                    <span className="text-slate-600">Memberikan solusi keuangan yang inovatif</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                    <span className="text-slate-600">Melindungi hak dan kepentingan klien</span>
+                    <span className="text-slate-600">Melindungi dana dan kepentingan nasabah</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
@@ -83,15 +83,15 @@ export default function MissionVision() {
                 <div className="mt-6 space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                    <span className="text-slate-600">Menjadi firma hukum terdepan di Indonesia</span>
+                    <span className="text-slate-600">Menjadi BPR terdepan dan terpercaya di Indonesia</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                    <span className="text-slate-600">Dipercaya oleh klien domestik dan internasional</span>
+                    <span className="text-slate-600">Dipercaya oleh nasabah dan mitra bisnis</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                    <span className="text-slate-600">Memberikan kontribusi positif bagi masyarakat</span>
+                    <span className="text-slate-600">Mendorong literasi keuangan dan inklusi finansial</span>
                   </div>
                 </div>
               </CardContent>
@@ -151,7 +151,7 @@ export default function MissionVision() {
               <div>
                 <h4 className="text-lg font-semibold text-slate-900 mb-2">Inovasi</h4>
                 <p className="text-slate-600">
-                  Kami mengadopsi teknologi dan metode terbaru untuk memberikan solusi hukum yang efektif dan efisien.
+                  Kami mengadopsi teknologi dan metode terbaru untuk memberikan solusi perbankan yang efektif dan efisien.
                 </p>
               </div>
             </div>
